@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rezume</title>
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(63, 252, 179);
+}
+
+
+@media screen and (min-width: 360px) {
+    
+.rezume{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.image{
+    text-align: center;
+}
+.image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-top: -60px;
+}
+
+.name, .platform{
+    text-align: center;
+}
+.name{
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+}
+.platform{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.portfolio{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    background-color: rgb(63, 252, 179);
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.portfolio a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+.myself{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    font-family: verdana;
+}
+
+.about{
+    margin: 10px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-family: inherit;
+    margin-top: 25px;
+}
+.about p{
+    color: darkorange;
+    border-bottom: 1.5px solid gray;
+    padding: 7px 0px;
+}
+.about p span{
+    font-weight: 600;
+    color: black;
+}
+.work{
+    text-align: center;
+    margin-top: 50px;
+    font-family:  Times, serif;
+    color: rgba(27, 27, 27, 0.863);
+}
+.tell{
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.tell p{
+    margin-bottom: 4px;
+}
+.tell a{
+    text-decoration: burlywood;
+    margin-top: 10px;
+}
+.tell i{
+    color: rgb(0, 132, 255);
+    padding: 2px 0px;
+}
+
+}
+
+/* tell responsive */
+
+@media screen and (max-width: 360px) {
+    .rezume{
+        width: 360px;
+        margin: auto;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        margin-top: 75px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+    }
+    
+    .image{
+        text-align: center;
+    }
+    .image img{
+        width: 100px;
+        height: 100px;
+        border-radius: 60px;
+        margin-top: -60px;
+    }
+    
+    .name, .platform{
+        text-align: center;
+    }
+    .name{
+        margin-top: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    .platform{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 350px;
+        margin: auto;
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    
+    .portfolio{
+        text-align: center;
+        width: 300px;
+        margin: auto;
+        background-color: rgb(63, 252, 179);
+        padding: 10px;
+        color: white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .portfolio a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-family:sans-serif;
+    }
+    
+    .myself{
+    text-align: center;
+    font-size: 19px;
+    color: black;
+    font-family: verdana;
+}
+
+.about{
+    margin: 10px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-family: inherit;
+    margin-top: 25px;
+}
+.about p{
+    color: darkorange;
+    border-bottom: 1.5px solid gray;
+    padding: 7px 0px;
+}
+.about p span{
+    font-weight: 600;
+    color: black;
+}
+    .work{
+        text-align: center;
+        margin-top: 50px;
+        font-family:  Times, serif;
+        color: rgba(27, 27, 27, 0.863);
+    }
+    .tell{
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .tell p{
+        margin-bottom: 4px;
+    }
+    .tell a{
+        text-decoration: burlywood;
+        margin-top: 10px;
+    }
+    .tell i{
+        color: rgb(0, 132, 255);
+        padding: 2px 0px;
+    }
+    
+}
+
+</style>
+<body>
+     <div class="rezume">
+         <div class="image">
+            <img src="../Rasm/UZIM.jpg" alt="...">
+         </div>
+
+         <div class="name">
+            ALIMBEK KOCHIBOYEV
+         </div>
+
+         <div class="platform">
+             <h4>MANZIL & JIZZAX VILOYATI, ZOMIN TUMANI BESHKUBI QFY TOLLI QISHLOGI</h4>
+         </div>
+
+         <div class="portfolio">
+            <a href="../index.html">PORTFELIMGA MARXAMAT</a>
+         </div>
+         <div class="myself">
+             OZIM XAQIMDA
+         </div>
+         <div class="about">
+            <p class="p1"><span>TOLIQ ISM: </span>KOCHIBOYEV ALIMBEK</p>
+            <p class="p2"><span>YASHASH JOYIM: </span>JIZZAX VILOYATI ZOMIN TUMANI.</p>
+            <p class="p1"><span>HOZIRGI YASHASH JOYIM: </span>YUNUSOBOD TTJ-3</p>
+            <p class="p1"><span>OQISH JOYIM:</span> MUXAMMAD AL-XORAZMIY NOMIDAGI TOSHKENT AXBOROT TEXNOLOGIYALARI UNIVERSITETI.</p>
+            <p class="p1"><span>MEN BILADIGAN DASTURLASH TILLARI:</span> Html, Css, Sass, Bootstrap, Javascript, React js, Node js</p>
+         </div>
+
+         <div class="work"> 
+             <strong>
+                 <p>B A Y R A M</p>
+                <p>V A</p>
+                <P>T A D B I R L A R</P>
+                <p>U CH U N</p>
+                <P>W E B</P>
+                 <P> S A Y T </P>
+            </strong>
+             
+         </div>
+
+         <div class="tell">
+             <p><b> Tell: </b>(99) 672 04 15</p>
+             <i class="fa fa-telegram"></i> <a href="https://t.me/HayotiyHayotUz">@Alimbek_Kochiboyev</a>
+         </div>
+     </div>
+</body>
+</html>
